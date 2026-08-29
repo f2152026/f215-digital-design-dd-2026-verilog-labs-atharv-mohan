@@ -70,6 +70,7 @@ module cla4(
   and #(2) (t43, p3, p2, p1, p0, cin);
   or  #(2) (cout, g3, t40, t41, t42, t43);
 
+  
   xor #(2) (sum[0], p0, cin);
   xor #(2) (sum[1], p1, c1);
   xor #(2) (sum[2], p2, c2);
